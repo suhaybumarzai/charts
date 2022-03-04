@@ -1,0 +1,41 @@
+{
+  "menu": [
+    {
+      "url": "javascript:void(0)",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo",
+      "tagcustom": "badge pill orange float-right mr-10",
+      "submenu": [
+        {
+          "url": "/charts-sparklines",
+          "name": "Modern",
+          "i18n": "Modern",
+          "slug": "dashboard-modern"
+        }
+      ]
+    },
+    {
+      "navheader": "Charts",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Graph",
+      "i18n": "Graph",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "chart",
+      "icon": "pie_chart_outlined",
+      "submenu": [
+        {
+          "url": "charts-sparklines",
+          "name": "Sales Graph",
+          "i18n": "Sales Graph",
+          "slug": "charts-sparklines"
+        }
+      ]
+    }
+  ]
+}

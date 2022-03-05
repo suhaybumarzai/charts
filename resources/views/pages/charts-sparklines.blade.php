@@ -123,7 +123,7 @@
          <div class="row">
             <div class="col s12">
                <p class="mb-2">
-                  Total tax with respect to provience.
+                  Tax paid with respect to customers.
                </p>
                <div class="sample-chart-wrapper"><canvas id="customer-d" height="400"></canvas></div>
             </div>
